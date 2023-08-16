@@ -270,7 +270,7 @@ const Offer = ({navigation}) => {
           alignItems: 'center',
           justifyContent: 'space-between',
         }}>
-        <View style={{flexDirection: 'column', marginLeft: '3%'}}>
+        <View style={{flexDirection: 'column', marginLeft: '2%'}}>
           <View style={{marginLeft: '5%'}}>
             <MiniLogo />
           </View>
