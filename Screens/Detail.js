@@ -38,7 +38,7 @@ const Detail = ({navigation}) => {
           flex: 0.5,
           alignItems: 'center',
           justifyContent: 'center',
-          bottom: 10,
+          
         }}>
         <ImageBackground
           source={require('../Image/Ellipse.png')}
@@ -82,7 +82,7 @@ const Detail = ({navigation}) => {
             <Card3 />
           </View>
         </ScrollView>
-        <View style={{alignItems: 'center'}}>
+        <View style={{alignItems: 'center',bottom:10}}>
           <TouchableOpacity
             style={{
               width: '90%',

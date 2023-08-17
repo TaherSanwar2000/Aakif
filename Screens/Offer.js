@@ -134,6 +134,7 @@ const Offer = ({navigation}) => {
       onPress={() => setShowModal(true)}
       style={{
         width: 165,
+        height:240,
         backgroundColor: '#FFF',
         borderRadius: 15,
         marginVertical: 10,
@@ -151,7 +152,7 @@ const Offer = ({navigation}) => {
         <Text style={{fontSize: 15, color: '#4F4F4F'}}>{item.title}</Text>
         {index === 0 ? <Unlock /> : index === 1 ? <Lock /> : null}
       </View>
-      <View style={{marginLeft: '3%'}}>
+      <View style={{marginLeft: '3%',marginTop:'3%'}}>
         <Text style={{fontSize: 16, color: '#000000'}}>{item.description}</Text>
       </View>
     </TouchableOpacity>
@@ -268,7 +269,7 @@ const Offer = ({navigation}) => {
         style={{
           flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'space-between',
+          justifyContent:'space-evenly',
         }}>
         <View style={{flexDirection: 'column', marginLeft: '3%'}}>
           <View style={{marginLeft: '5%'}}>
